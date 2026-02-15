@@ -1,6 +1,6 @@
 baseURL = "https://bmhash.github.io/drafts/"
 languageCode = "en-us"
-title = "My Hugo Blog"
+title = "Brain Drafts"
 theme = "hello-friend-ng"
 
 [pagination]
@@ -13,7 +13,7 @@ pagerSize = 10
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "A simple blog"
+  homeSubtitle = "In depth wandering through reality"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
