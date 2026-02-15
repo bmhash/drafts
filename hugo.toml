@@ -1,7 +1,37 @@
 baseURL = "https://bmhash.github.io/drafts/"
 languageCode = "en-us"
 title = "My Hugo Blog"
-theme = "PaperMod"
+theme = "hello-friend-ng"
 
 [pagination]
 pagerSize = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "A simple blog"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "My new Hugo blog"
+  keywords = "blog, hugo"
+  images = [""]
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "/posts/"
