@@ -1,4 +1,4 @@
-baseURL = "https://<your-namespace>.gitlab.io/<project-path>/"
+baseURL = "https://bmhash.github.io/drafts/"
 languageCode = "en-us"
 title = "My Hugo Blog"
 theme = "PaperMod"
