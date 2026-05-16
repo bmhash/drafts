@@ -1,0 +1,34 @@
+/* Hide all navigation elements for clean landing page */
+.sidebar,
+.sidebar-navigation,
+#quarto-sidebar,
+.quarto-title-banner,
+.page-navigation,
+.nav-footer,
+.nav-page,
+#TOC,
+.toc-actions {
+  display: none !important;
+}
+
+/* Make content full width without sidebar */
+.page-columns {
+  grid-template-columns: 1fr !important;
+}
+
+body.quarto-light {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure main content takes full width */
+main.content {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#quarto-content {
+  padding: 0 !important;
+  margin: 0 !important;
+}

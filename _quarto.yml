@@ -39,8 +39,9 @@ format:
     theme: 
       - litera
       - styles/typography.scss
-    toc: true
-    toc-depth: 2
+    css: styles/landing.css
+    toc: false
     number-sections: false
     lang: pt
     link-external-newwindow: true
+    page-navigation: false
