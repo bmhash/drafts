@@ -36,16 +36,9 @@ book:
 
 format:
   html:
-    theme:
-      light: styles/theme-light.scss
-    css: styles/custom.css
+    theme: litera
     toc: true
     toc-depth: 2
     number-sections: false
     lang: pt
-    mainfont: "EB Garamond"
-    fontsize: "1.15em"
-    linestretch: 1.7
-    margin-left: "15%"
-    margin-right: "15%"
     link-external-newwindow: true
